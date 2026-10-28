@@ -1,0 +1,56 @@
+{
+  "name": "contrast-doctor",
+  "version": "0.1.0",
+  "description": "Find and fix low-contrast colors: WCAG 2.2 checks for CSS and design tokens, the closest accessible color in OKLCH (same hue), and color-blindness confusions in your palette. Zero dependencies.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "contrast-doctor": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "wcag",
+    "contrast",
+    "color",
+    "oklch",
+    "design-tokens",
+    "color-blindness",
+    "css"
+  ],
+  "author": "Yago de Jesus Martins",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yagodejesus/contrast-doctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yagodejesus/contrast-doctor/issues"
+  },
+  "homepage": "https://github.com/yagodejesus/contrast-doctor#readme",
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  }
+}

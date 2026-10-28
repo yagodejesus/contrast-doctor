@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120"><defs><clipPath id="cdce"><rect x="0" y="0" width="60" height="120"/></clipPath>
+<clipPath id="cdcd"><rect x="60" y="0" width="60" height="120"/></clipPath></defs>
+<circle cx="60" cy="60" r="52" fill="#2E1065" clip-path="url(#cdce)"/>
+<circle cx="60" cy="60" r="52" fill="#FDE047" clip-path="url(#cdcd)"/>
+<path d="M49 28 H71 V49 H92 V71 H71 V92 H49 V71 H28 V49 H49 Z" fill="#FDE047" clip-path="url(#cdce)"/><path d="M49 28 H71 V49 H92 V71 H71 V92 H49 V71 H28 V49 H49 Z" fill="#2E1065" clip-path="url(#cdcd)"/></svg>

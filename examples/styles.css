@@ -1,0 +1,8 @@
+:root {
+  --brand: #4f46e5;
+  --muted: #9ca3af;
+}
+.button { color: #fff; background: var(--brand); }
+/* placeholder text is often too light */
+.hint { color: var(--muted); background-color: #ffffff; }
+.badge { color: #ffffff; background: #22c55e; }
